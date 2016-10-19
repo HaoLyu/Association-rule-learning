@@ -8,6 +8,10 @@ Apriori uses a breadth-first search strategy to count the support of itemsets an
 ```
 python Apriori.py input_file result_file sigma row_size(optional)
 ```
+for example: 
+```
+python Apriori.py input_file_example.dat result.csv 4 1000
+```
 
 ## FP-growth algorithm
 FP stands for frequent pattern.This is a much more efficient and fast way to mine association-rule. Because this algorithm compresses the large dataset into a compact Frequent-Pattern tree. This way avoids repeated database scans and calculate on a compact tree struture. More information, pls see *[Wikipedia](https://en.wikipedia.org/wiki/Association_rule_learning#Apriori_algorith) 
@@ -15,6 +19,10 @@ FP stands for frequent pattern.This is a much more efficient and fast way to min
 ### Run by
 ```
 python FP_Tree.py input_file result_file sigma row_size(optional)
+```
+for example:
+```
+python FP_Tree.py input_file_example.dat result.csv 4
 ```
 
 * Here I prepare a 20k transaction file 'input_file_example.da' as our example input. 
