@@ -31,5 +31,9 @@ python FP_Tree.py input_file_example.dat result.csv 4
 * Row_size are the size of rows that will be throw into our model. You can skip it and the default value will scan all the rows in the input file.
 * Here I define the minimum frequent itemset should contain at least three times.
 
+### Acknowledgments
+* http://www3.cs.stonybrook.edu/~cse634/lecture_notes/07apriori.pdf
+
+
 ### Author
 Hao Lyu, UT Austin, School of Information, email: lyuhao@utexas.edu
