@@ -1,0 +1,9 @@
+# Association-rule-learning
+Introduce the Python implementation of Association rule learning, including Apriori algorithm and FP-growth algorithm
+## Apriori algorithm
+Apriori uses a breadth-first search strategy to count the support of itemsets and uses a candidate generation function which exploits the downward closure property of support.
+### Run by
+```
+python Apriori.py input_file.csv result_file sigma row_size
+```
+Here I prepare a 20k transaction file as our example input. 

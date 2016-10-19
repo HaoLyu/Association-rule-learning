@@ -1,6 +1,6 @@
 # Author: Hao Lyu 
 # UT Austin, School of Information
-# Run by: python Apriori.py input_file result_file sigma row_size
+# Run by: python Apriori.py input_file.csv result_file sigma row_size
 # For example: python Apriori.py input_file_example.dat result.csv 4 1000
 # Explain: sigma is the support score, row_size is how many rows in the file you want to run(default None will run all the rows).
 # Input format: Show as input_file_example.dat
